@@ -1,5 +1,4 @@
-a = [1,2,3]
+a = 'hello world'
 
 if __name__=='__main__':
-    for i in a:
-        print(i)
+    print(a)
