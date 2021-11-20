@@ -8,7 +8,7 @@ class IterTest:
         return self
         
     def __next__(self):
-        self.start = self.start + step
+        self.start = self.start + self.step
         if self.start>10:
             raise StopIteration
         return self.start
